@@ -1,0 +1,37 @@
+{
+  "folders": [
+    {
+      "path": "./frontend",
+    },
+    {
+      "path": "./api",
+    },
+    {
+      "path": "./",
+      "name": "root"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+        "**/node_modules": true
+    }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "XDebug - Teste",
+        "type": "php",
+        "request": "launch",
+        "port": 9003,
+        "pathMappings": {
+          "/api": "${workspaceFolder:api}"
+        },
+        "ignore": [
+          "**/vendor/phpunit/phpunit/src/Util/Annotation/Registry.php",
+          "**/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+        ]
+      },
+    ]
+  },
+}
