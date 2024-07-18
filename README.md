@@ -55,16 +55,15 @@ Agora a aplicação Todoify está pronta para ser usada! Acesse http://localhost
 A aplicação Todoify possui as seguintes funcionalidades:
 Usuários Comuns
 
-    Criar, editar, concluir e excluir tarefas.
+    concluir ou definir em outros estados as tarefas.
     Visualizar um painel com as tarefas pendentes e concluídas.
 
 ## Usuários Administradores
 Além das funcionalidades dos usuários comuns, os administradores também podem:
 
-    Gerenciar (criar, editar, ativar/desativar) usuários.
-    Visualizar um painel com estatísticas gerais da aplicação.
+    Gerenciar (editar, ativar/desativar) usuários.
 
-Estrutura do Projeto
+## Estrutura do Projeto
 O projeto Todoify está organizado da seguinte forma:
 
     A pasta frontend contém todo o código-fonte da aplicação Vue.js.
