@@ -32,14 +32,14 @@ composer install
 cd backend
 php artisan migrate
 
+# Importante:
+## Ao executar as migrations, um usuário admin será criado, ele pode ser acessado utilizando o email admin@gmail.com e a senha 1234.
+
 ## Executar os scripts de seed:
 
 php artisan db:seed TaskSeeder
 
 php artisan db:seed
-
-# Importante:
-## Ao executar as migrations, um usuário admin será criado, ele pode ser acessado utilizando o email admin@gmail.com e a senha 1234
 
 ## Iniciar o servidor de desenvolvimento:
 
